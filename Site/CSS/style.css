@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+   background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  /* position: fixed; */
+  width: 100%;
+  z-index: 10;
+  top: 0; 
+}
+
+.container {
+   max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Botão Hamburguer */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Menu de navegação */
+/* .nav-menu {
+  position: relative;
+} */
+
+.acima {
+  /* position: fixed; */
+  text-align: center;
+  top: 0px;
+  z-index: 10;
+  background-color: #A2D2FF;
+  justify-content: center;
+  padding: 10px;
+  .h5{
+    text-align: center;
+  }
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #e91e63;
+}
+
+/* Banner */
+.banner {
+  /* margin-top: 58px; */
+  /* background-color: #FFAFCC; */
+  background-image: url(/Site/banner/Banner\ Rosa\ e\ Azul\ Colorido.png);
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+  width: 100%;
+}
+
+.banner-texto h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.banner-texto p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.botao {
+  background-color: #e91e63;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.botao:hover {
+  background-color: #d81b60;
+}
+
+.produtos {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.produtos h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.swiper {
+  padding: 20px 0;
+}
+
+.produto {
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.produto h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.produto p {
+  color: #e91e63;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.comprar {
+  display: inline-block;
+  background: #e91e63;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.comprar:hover {
+  background-color: #c2185b;
+}
+
+.loc {
+  display: flex ;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.iframe {
+  margin: 10px 0;
+  width: 30%;
+  height: 50%;
+  border-radius: 20px;
+  box-shadow: #666 0px 0px 10px;
+  padding: 5px;
+  /* iframe {
+    width: 100%;
+    height: 100%;
+  } */
+}
+
+.sobre {
+  display: flex ;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sobre-container a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 10px;
+  i {
+    font-size: 2rem;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 100;
+}
+
+.whatsapp-float img {
+  width: 100%;
+}
+
+/* ===== MOBILE MENU STYLES ===== */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-in-out;
+  }
+
+  .nav-menu.active {
+    max-height: 300px; /* altura suficiente para exibir todos os itens */
+  }
+
+  .nav-menu ul {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav-menu ul li {
+    margin: 10px 0;
+  }
+}
