@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+   background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  /* position: fixed; */
+  width: 100%;
+  z-index: 10;
+  top: 0; 
+}
+
+.container {
+   max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Botão Hamburguer */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Menu de navegação */
+/* .nav-menu {
+  position: relative;
+} */
+
+.acima {
+  /* position: fixed; */
+  text-align: center;
+  top: 0px;
+  z-index: 10;
+  background-color: #A2D2FF;
+  justify-content: center;
+  padding: 10px;
+  .h5{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #e91e63;
+}
+
+/* ===== MOBILE MENU STYLES ===== */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-in-out;
+  }
+
+  .nav-menu.active {
+    max-height: 300px; /* altura suficiente para exibir todos os itens */
+  }
+
+  .nav-menu ul {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav-menu ul li {
+    margin: 10px 0;
+  }
+}
