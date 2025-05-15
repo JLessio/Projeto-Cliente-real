@@ -43,13 +43,7 @@ header {
   cursor: pointer;
 }
 
-/* Menu de navegação */
-/* .nav-menu {
-  position: relative;
-} */
-
-.acima {
-  /* position: fixed; */
+/* .acima {
   text-align: center;
   top: 0px;
   z-index: 10;
@@ -60,7 +54,7 @@ header {
     text-align: center;
     font-size: 1.5rem;
   }
-}
+} */
 
 .nav-menu ul {
   list-style: none;
