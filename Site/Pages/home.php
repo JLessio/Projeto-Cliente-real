@@ -1,6 +1,5 @@
   <style>
     .banner {
-      background-color: 
       background-size: cover;
       background-position: center;
       color: white;
@@ -80,7 +79,7 @@
   <section class="banner text-center">
     <div class="container">
       <div class="banner-texto">
-        <h2 class="tittle display-5 fl-bold">Moria Modas - Onde Estilo Encontra Economia</h2>
+        <h2 class="tittle display-5 fl-bold">Moria Modas - Atacado e Varejo</h2>
         <p class="sub-tittle lead">Do casual ao elegante, tudo em um só lugar.</p>
       </div>
     </div>
@@ -93,44 +92,44 @@
 
       <div class="col-sm-6 col-md-4 col-lg-3">
         <div class="card h-100 text-center">
-          <img src="./assets/images/saiamidi.jpeg" class="card-img-top" alt="Saia Midi Plissada">
+          <img src="./assets/images/sobre leg de pelinho.jpg" class="card-img-top" alt="Sobre Leg de pelinho">
           <div class="card-body">
-            <h5 class="card-title"">Saia Midi Plissada</h3>
-            <p class="card-text">R$ 129,90</p>
-            <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20a%20Saia%20Midi%20Plissada!" target="_blank" class="btn comprar">Comprar</a>
+            <h5 class="card-title"">Sobre Leg de pelinho</h3>
+            <!-- <p class="card-text">R$ 65,90</p> -->
+            <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20a%20Sobre%20Leg%20De%20Pelinho!" target="_blank" class="btn comprar">Comprar</a>
           </div>
         </div>
       </div>
 
       <div class="col-sm-6 col-md-4 col-lg-3">
         <div class="card h-100 text-center">
-          <img src="./assets/images/camisalinho.jpeg" class="card-img-top" alt="Camisa de Linho">
+          <img src="./assets/images/cacharrel.jpg" class="card-img-top" alt="Cacharrel">
           <div class="card-body">
-            <h5 class="card-title">Camisa de Linho</h3>
-            <p class="card-text">R$ 179,90</p>
-            <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20a%20Camisa%20de%20Linho!" target="_blank" class="btn comprar">Comprar</a>
+            <h5 class="card-title">Cacharrel</h3>
+            <!-- <p class="card-text">R$ 19,90</p> -->
+            <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20a%20Cacharrel!" target="_blank" class="btn comprar">Comprar</a>
           </div>
         </div>
       </div>
 
       <div class="col-sm-6 col-md-4 col-lg-3">
         <div class="card h-100 text-center">
-          <img src="./assets/images/bone-furado.jpeg" class="card-img-top" alt="Boné 1">
+          <img src="./assets/images/bobojaco.jpg" class="card-img-top" alt="Jaqueta Casaco Bobojaco">
           <div class="card-body">
-            <h5 class="card-title">Boné furado</h5>
-            <p class="card-text">R$ 149,90</p>
-            <a href="#" class="btn comprar">Comprar</a>
+            <h5 class="card-title">Jaqueta Casaco Bobojaco</h5>
+            <!-- <p class="card-text">R$ 89,90</p> -->
+            <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20a%20Jaqueta%20Casaco%20Bobojaco!" target="_blank" class="btn comprar" class="btn comprar">Comprar</a>
           </div>
         </div>
       </div>
 
       <div class="col-sm-6 col-md-4 col-lg-3">
         <div class="card h-100 text-center">
-          <img src="./assets/images/bone-diferente.jpeg" class="card-img-top" alt="Boné 2">
+          <img src="./assets/images/cardigan ted.jpg" class="card-img-top" alt="cardigan ted">
           <div class="card-body">
-            <h5 class="card-title">Boné diferente</h5>
-            <p class="card-text">R$ 159,90</p>
-            <a href="#" class="btn comprar">Comprar</a>
+            <h5 class="card-title">Cardigan Ted</h5>
+            <!-- <p class="card-text">R$ 74,90</p> -->
+            <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20a%20Cardigan%20Ted!" target="_blank" class="btn comprar" class="btn comprar">Comprar</a>
           </div>
         </div>
       </div>

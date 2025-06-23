@@ -1,6 +1,5 @@
 <style>
   .banner {
-      background-color: 
       background-size: cover;
       background-position: center;
       color: white;
@@ -67,44 +66,44 @@
   <div class="row g-4">
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100 text-center">
-        <img src="./assets/images/bone-preto.jpg" class="card-img-top" alt="Boné preto">
+        <img src="./assets/images/bone.jpg" class="card-img-top" alt="Boné">
         <div class="card-body">
-          <h5 class="card-title">Boné Preto</h5>
-          <p class="card-text">R$ 149,90</p>
-          <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20o%20Boné%20Preto!" class="btn comprar">Comprar</a>
+          <h5 class="card-title">Boné</h5>
+          <!-- <p class="card-text">R$ 16,90</p> -->
+          <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20o%20Boné!" class="btn comprar">Comprar</a>
         </div>
       </div>
     </div>
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100 text-center">
-        <img src="./assets/images/boina-Newsboy.jpeg" class="card-img-top" alt="boina Newsboy">
+        <img src="./assets/images/cueca de algodao.jpg" class="card-img-top" alt="Cueca de algodão">
         <div class="card-body">
-          <h5 class="card-title">Boina Newsboy</h5>
-          <p class="card-text">R$ 159,90</p>
-          <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20a%20Boina%20Newsboy!" class="btn comprar">Comprar</a>
+          <h5 class="card-title">Cueca de algodão</h5>
+          <!-- <p class="card-text">R$ 9,90</p> -->
+          <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20Cueca%20De%20Algodão!" class="btn comprar">Comprar</a>
         </div>
       </div>
     </div>
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100 text-center">
-        <img src="./assets/images/bone-furado.jpeg" class="card-img-top" alt="Boné Furado">
+        <img src="./assets/images/bone-furado.jpg" class="card-img-top" alt="Boné Malha Fresca">
         <div class="card-body">
-          <h5 class="card-title">Boné Furado</h5>
-          <p class="card-text">R$ 159,90</p>
-          <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20o%20Boné%20Furado!" target="_blank" class="btn comprar">Comprar</a>
+          <h5 class="card-title">Boné Malha Fresca</h5>
+          <!-- <p class="card-text">R$ 16,90</p> -->
+          <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20o%20Boné%20Malha!" target="_blank" class="btn comprar">Comprar</a>
         </div>
       </div>
     </div>
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100 text-center">
-        <img src="./assets/images/bone-quepe.jpeg" class="card-img-top" alt="Boné Quepe">
+        <img src="./assets/images/cueca malha.jpg" class="card-img-top" alt="Cueca Microfibra">
         <div class="card-body">
-          <h5 class="card-title">Boné 4</h5>
-          <p class="card-text">R$ 149,90</p>
-          <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20o%20Boné%20Quepe!" class="btn comprar">Comprar</a>
+          <h5 class="card-title">Cueca Microfibra</h5>
+          <!-- <p class="card-text">R$ 5,90</p> -->
+          <a href="https://wa.me/5544997040561?text=Olá,%20quero%20comprar%20o%20Cueca%20De%20Microfibra!" class="btn comprar">Comprar</a>
         </div>
       </div>
     </div>

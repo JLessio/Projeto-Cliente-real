@@ -2,17 +2,15 @@
 /* Página de roupas */
 
 .banner {
-  background-color: 
   background-size: cover;
   background-position: center;
   color: white;
-  z-index: 1; 
-  /* margin-top: 30px; */
+  z-index: 1; p
 }
     
 .banner-texto {
   background-color: #FCF5DE; 
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: #FCF5DE 0px 4px 12px;
 }
@@ -183,9 +181,9 @@
         <button class="btn btn-outline-warning filtro" data-categoria="Vestidos">Vestidos</button>
         <button class="btn btn-outline-warning filtro" data-categoria="Blusas">Blusas</button>
         <button class="btn btn-outline-warning filtro" data-categoria="Calças">Calças</button>
-        <button class="btn btn-outline-warning filtro" data-categoria="Saias">Saias</button>
+        <!-- <button class="btn btn-outline-warning filtro" data-categoria="Saias">Saias</button> -->
         <button class="btn btn-outline-warning filtro" data-categoria="Casacos">Casacos</button>
-        <button class="close limpar-filtros" alt="Limpar filtros"><i class="icone fa-solid fa-trash"></i></button>
+        <!-- <button class="close limpar-filtros" alt="Limpar filtros"><i class="icone fa-solid fa-trash"></i></button> -->
       </div>
     </div>
   </div>
@@ -203,7 +201,7 @@
       echo '<img src="' . $produto['imagem'] . '" class="card-img-top" alt="' . $produto['nome'] . '">';
       echo '<div class="card-body text-center">';
       echo '<h5 class="card-title">' . $produto['nome'] . '</h5>';
-      echo '<p class="card-text">' . $produto['preco'] . '</p>';
+      // echo '<p class="card-text">' . $produto['preco'] . '</p>';
       echo '<a href="' . $produto['link'] . '" target="_blank" class="btn comprar">Comprar</a>';
       echo '</div></div></div>';
     }
