@@ -38,7 +38,7 @@
       <div class="col-md-4 mb-4 order-2 order-md-2 d-flex flex-column justify-content-center">
         <div class="info">
           <h4 class="h5">Moria Modas LTDA</h4>
-          <p>CNPJ: 01.123.123.0001/01</p>
+          <p>CNPJ: 04.793.723.0001/46</p>
           <p><i class="fas fa-map-marker-alt"></i> R. Venezuela 300, Bairro Morumbi, Goioerê PR-BR</p>
           <p><i class="fas fa-phone"></i> (44) 9 9704-0561</p>
         </div>

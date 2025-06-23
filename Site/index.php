@@ -1,7 +1,11 @@
 <?php
+
+        $base = "https://{$_SERVER['SERVER_NAME']}{$_SERVER['SCRIPT_NAME']}"; // Define o caminho base para os links
         $param = $_GET['param'] ?? 'home';
         //print_r($_GET);
-        $pagina = 'pages/' . $param . '.php';
+        $pagina = 'Pages/' . $param . '.php';
+
+        
     ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -9,13 +13,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Moria Modas</title>
+  <base href="<?php $base ?>">
+
   <link rel="stylesheet" href="assets/style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="assets/images/logo-page.png" type="image/x-icon">
-
-
   
 </head>
 <body>
